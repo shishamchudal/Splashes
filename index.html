@@ -16,61 +16,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-      .hero {
-        background: url("/assets/images/home.jpeg") no-repeat center center;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: white;
-        position: relative;
-      }
-
-      .hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.2); /* Dark overlay for readability */
-      }
-
-      .hero-content {
-        position: relative;
-        z-index: 2;
-      }
-
-      .hero-buttons .btn {
-        font-size: 1.2rem;
-        padding: 10px 20px;
-        border-radius: 50px;
-      }
-
-      .teaching-section {
-        background: url("assets/images/home-hands-on-teaching.jpeg") no-repeat center center;
-        background-size: cover;
-        padding: 100px 0;
-    }
-    
-    /* Media query for smaller screens */
-    @media (max-width: 768px) {
-        .teaching-section {
-            background: none; /* Remove background image for smaller screens */
-        }
-    }
-
-      .location-section {
-        background: url("assets/images/home-our-locations-bg.jpeg") no-repeat
-          center center;
-        background-size: cover;
-        padding: 100px 0;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
