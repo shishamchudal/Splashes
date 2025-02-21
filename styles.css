@@ -1,4 +1,4 @@
-.hero {
+#index .hero {
   background: url("/assets/images/home.jpeg") no-repeat center center;
   background-size: cover;
   height: 100vh;
@@ -9,7 +9,17 @@
   color: white;
   position: relative;
 }
-
+#about .hero {
+    background: url("/assets/images/about-us-hero.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
 .hero::before {
   content: "";
   position: absolute;
@@ -37,6 +47,30 @@
   background-size: cover;
   padding: 100px 0;
 }
+
+#philosophy {
+  background: url("assets/images/about-our-philosophy-bg.jpeg") no-repeat center
+    center;
+  background-size: cover;
+  padding: 100px 0;
+}
+#good-job {
+    background: url("assets/images/about-we-do-a-pretty-good-job-bg.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 400px; /* Or min-height: 400px; if content might be taller */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content (optional) */
+  }
+  
+  #good-job .container { /* Target the container inside */
+    width: 100%; /* Ensure container takes full width */
+  }
+  
+  #good-job .col-md-8 { /* Target the content column */
+    text-align: center; /* Center text within the column */
+  }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
