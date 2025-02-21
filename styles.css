@@ -20,6 +20,17 @@
     color: white;
     position: relative;
   }
+#lessons .hero {
+    background: url("/assets/images/which-lesson-is-best.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
 .hero::before {
   content: "";
   position: absolute;
