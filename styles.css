@@ -31,6 +31,17 @@
     color: white;
     position: relative;
   }
+#program .hero {
+    background: url("/assets/images/summer-swim-camps.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
 .hero::before {
   content: "";
   position: absolute;
