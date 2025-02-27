@@ -42,6 +42,17 @@
     color: white;
     position: relative;
   }
+#adult-program .hero {
+    background: url("/assets/images/lap-swimming.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
 .hero::before {
   content: "";
   position: absolute;
