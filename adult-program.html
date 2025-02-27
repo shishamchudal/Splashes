@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="adult-program">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="/assets/Graphics/logo-small.png" alt="" height="40" />
@@ -80,16 +80,84 @@
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
-          <form class="d-flex">
+          <div class="d-flex">
             <button
               class="btn btn-sm rounded-pill bg-white text-primary border-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
               Register / Sign in
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="container">
+                <center>
+                  <img
+                    src="assets/images/splash-wave.png"
+                    alt="Logo"
+                    class="logo"
+                  />
+                </center>
+                <div class="modal-content text-center container">
+                  <!-- Character -->
+                  <img
+                    src="assets/images/shark-full.png"
+                    alt="Character"
+                    class="character"
+                  />
+
+                  <h4 class="mb-3">SIGN IN</h4>
+                  <form>
+                    <div class="mb-3 text-start">
+                      <label class="form-label text-danger">Email *</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                    <div class="mb-2 text-start">
+                      <label class="form-label text-danger">Password *</label>
+                      <input type="password" class="form-control" />
+                    </div>
+                    <div class="forgot-password">
+                      <a href="#" class="text-info">Forgot Password?</a>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="d-flex justify-content-center gap-3">
+                        <button
+                          type="submit"
+                          class="btn btn-primary btn-custom"
+                        >
+                          Sign In
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary btn-custom"
+                        >
+                          Sign Up
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Main Section -->
     <main>
