@@ -95,6 +95,13 @@
   padding: 100px 0;
 }
 
+footer {
+  background: url("assets/images/footer-bg.jpeg") no-repeat center
+    center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
 #philosophy {
   background: url("assets/images/about-our-philosophy-bg.jpeg") no-repeat center
     center;
