@@ -27,6 +27,7 @@
   <body id="adult-program">
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
       <div class="container">
+        <!-- Full Width Navbar -->
         <a class="navbar-brand" href="index.html">
           <img src="/assets/Graphics/logo-small.png" alt="" height="40" />
         </a>
@@ -43,7 +44,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <!-- Center Navbar Links -->
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
@@ -54,30 +56,99 @@
               <a class="nav-link" href="program.html">Swim Programs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="adult-program.html">Adult Programs</a>
+              <a class="nav-link" href="adult-program.html">Adult Programs</a>
             </li>
+
+            <!-- Locations Dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdown"
+                id="locationsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Locations
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <div class="dropdown-menu" id="locationDropdown">
+                <!-- Full Width Dropdown -->
+                <div class="container-fluid w-full">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h6 class="fw-bold">Orange County</h6>
+                      <a class="dropdown-item" href="#"
+                        >Anaheim Hills @ LA Fitness</a
+                      >
+                      <a class="dropdown-item" href="#">Huntington Beach</a>
+                      <a class="dropdown-item" href="#">Irvine</a>
+                      <a class="dropdown-item" href="#"
+                        >Yorba Linda @ LA Fitness</a
+                      >
+
+                      <h6 class="fw-bold mt-3">San Diego County</h6>
+                      <a class="dropdown-item" href="#">Carlsbad</a>
+                      <a class="dropdown-item" href="#">Poway @ LA Fitness</a>
+
+                      <h6 class="fw-bold mt-3">San Francisco</h6>
+                      <a class="dropdown-item" href="#"
+                        >San Francisco-20th Ave <br />@ City Sports Club</a
+                      >
+                    </div>
+                    <div class="col-md-3">
+                      <h6 class="fw-bold">San Gabriel Valley</h6>
+                      <a class="dropdown-item" href="#"
+                        >Alhambra-Fremont @ LA <br />
+                        Fitness</a
+                      >
+                      <a class="dropdown-item" href="#">Arcadia @ LA Fitness</a>
+                      <a class="dropdown-item" href="#"
+                        >Diamond Bar @ LA Fitness</a
+                      >
+                      <a class="dropdown-item" href="#">Pasadena</a>
+                      <a class="dropdown-item" href="#"
+                        >West Covina @ LA Fitness</a
+                      >
+                      <br />
+                      <h6 class="fw-bold">Los Angeles County</h6>
+                      <a class="dropdown-item" href="#"
+                        >Culver City @ LA Fitness</a
+                      >
+                      <a class="dropdown-item" href="#"
+                        >Harbor City @ LA Fitness</a
+                      >
+                    </div>
+                    <br />
+                    <div class="col-md-3">
+                      <h6 class="fw-bold">Silicon Valley</h6>
+                      <a class="dropdown-item" href="#"
+                        >North San Jose @ City Sports <br />Club</a
+                      >
+                      <a class="dropdown-item" href="#"
+                        >San Jose-Almaden @ City <br />Sports Club</a
+                      >
+                      <a class="dropdown-item" href="#">San Jose-Bascom</a>
+                      <a class="dropdown-item" href="#"
+                        >San Jose-Blossom Hill @ City <br />Sports Club</a
+                      >
+                      <a class="dropdown-item" href="#"
+                        >Sunnyvale @ City Sports Club</a
+                      >
+                      <br />
+                      <h6 class="fw-bold">Alameda County</h6>
+                      <a class="dropdown-item" href="#"
+                        >Hayward @ City Sports Club</a
+                      >
+                      <br />
+                      <h6 class="fw-bold">Denver</h6>
+                      <a class="dropdown-item" href="#">Highlands Ranch</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact Us</a>
             </li>
           </ul>
           <div class="d-flex">
@@ -215,40 +286,54 @@
           class="mb-5 img-fluid"
         />
 
-        <nav class="mb-3">
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >About</a
+        <div class="row">
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100"
           >
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >Locations</a
-          >
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >FAQs</a
-          >
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >Contact</a
-          >
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >Register / Sign In</a
-          >
-          <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
-            >Careers</a
-          >
-        </nav>
+            <!-- Left-Aligned Navigation -->
+            <nav class="mb-3 mb-md-0">
+              <a href="about.html" class="mx-2 text-dark fw-bold text-decoration-none"
+                >About</a
+              >
+              <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
+                >Locations</a
+              >
+              <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
+                >FAQs</a
+              >
+              <a href="contact.html" class="mx-2 text-dark fw-bold text-decoration-none"
+                >Contact</a
+              >
+              <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
+                >Register / Sign In</a
+              >
+              <a href="#" class="mx-2 text-dark fw-bold text-decoration-none"
+                >Careers</a
+              >
+            </nav>
 
-        <div class="d-flex justify-content-center gap-3 mb-4">
-          <a href="#" class="text-dark"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
-          <a href="#" class="text-dark"
-            ><i class="fab fa-instagram fa-2x"></i
-          ></a>
-          <a href="#" class="text-dark"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="#" class="text-dark"><i class="fab fa-yelp fa-2x"></i></a>
-          <a href="#" class="text-dark"
-            ><i class="fab fa-facebook fa-2x"></i
-          ></a>
-          <a href="#" class="text-dark"><i class="fab fa-youtube fa-2x"></i></a>
+            <!-- Right-Aligned Social Icons -->
+            <div class="d-flex gap-3">
+              <a href="#" class="text-dark"
+                ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-twitter fa-2x"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-yelp fa-2x"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-youtube fa-2x"></i
+              ></a>
+            </div>
+          </div>
         </div>
 
         <hr class="my-4" />
@@ -314,8 +399,7 @@
           <!-- Copyright Section -->
           <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
             <p class="text-muted">
-              &copy; 2022 Splashes.<br />
-              <br />All Rights Reserved
+              &copy; 2022 Splashes.<br />All Rights Reserved
             </p>
           </div>
         </div>

@@ -10,61 +10,63 @@
   position: relative;
 }
 #about .hero {
-    background: url("/assets/images/about-us-hero.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
+  background: url("/assets/images/about-us-hero.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
 #lessons .hero {
-    background: url("/assets/images/which-lesson-is-best.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
+  background: url("/assets/images/which-lesson-is-best.jpeg") no-repeat center
+    center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
 #program .hero {
-    background: url("/assets/images/summer-swim-camps.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
-#adult-program .hero{
-    background: url("/assets/images/lap-swimming.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
-#contact .hero{
-    background: url("/assets/images/contact-hero.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
-.navbar{
+  background: url("/assets/images/summer-swim-camps.jpeg") no-repeat center
+    center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+#adult-program .hero {
+  background: url("/assets/images/lap-swimming.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+#contact .hero {
+  background: url("/assets/images/contact-hero.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.navbar {
   opacity: 0.9;
 }
 .hero::before {
@@ -95,9 +97,21 @@
   padding: 100px 0;
 }
 
+@media (min-width: 992px) {
+  #locationDropdown {
+    width: 900%;
+    left: -600%;
+    top: 50px;
+    background-color: white;
+    padding: 20px;
+  }
+
+  #locationDropdown a {
+    color: #35BDF4;
+  }
+}
 footer {
-  background: url("assets/images/footer-bg.jpeg") no-repeat center
-    center;
+  background: url("assets/images/footer-bg.jpeg") no-repeat center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -109,22 +123,25 @@ footer {
   padding: 100px 0;
 }
 #good-job {
-    background: url("assets/images/about-we-do-a-pretty-good-job-bg.jpeg") no-repeat center center;
-    background-size: cover;
-    height: 400px; /* Or min-height: 400px; if content might be taller */
-    display: flex; /* Enable flexbox */
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Vertically center content */
-    align-items: center; /* Horizontally center content (optional) */
-  }
-  
-  #good-job .container { /* Target the container inside */
-    width: 100%; /* Ensure container takes full width */
-  }
-  
-  #good-job .col-md-8 { /* Target the content column */
-    text-align: center; /* Center text within the column */
-  }
+  background: url("assets/images/about-we-do-a-pretty-good-job-bg.jpeg")
+    no-repeat center center;
+  background-size: cover;
+  height: 400px; /* Or min-height: 400px; if content might be taller */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content (optional) */
+}
+
+#good-job .container {
+  /* Target the container inside */
+  width: 100%; /* Ensure container takes full width */
+}
+
+#good-job .col-md-8 {
+  /* Target the content column */
+  text-align: center; /* Center text within the column */
+}
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
